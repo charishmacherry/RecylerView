@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#880E4F"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/cardView"
+        app:cardBackgroundColor="#ffffff"
+        app:cardElevation="12dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                android:id="@+id/img_id"
+                android:src="@mipmap/ic_launcher"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img_id"
+                android:textSize="18dp"
+                android:id="@+id/name"
+                android:text="Tirupati"
+                android:layout_marginLeft="25dp"
+                android:textColor="#880E4F"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img_id"
+                android:textSize="15dp"
+                android:id="@+id/god"
+                android:text="Railway station"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="25dp"
+                android:textColor="#880E4F"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:id="@+id/check_list_item"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="#0D47A1"
+                android:layout_toRightOf="@+id/img_id"
+                android:layout_below="@+id/god"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:padding="3dp"
+                android:id="@+id/history"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Navigate here..."
+                android:textColor="#0D47A1"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/img_id"
+                android:layout_below="@+id/god"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:padding="3dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/navigation"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

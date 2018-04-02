@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.intern.mallika.recycle.StartActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/start"
+            android:textSize="25dp"
+            android:text="pick your start point"
+            android:layout_margin="10dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:id="@+id/start_point"
+            android:layout_margin="10dp">
+        </Spinner>
+    </LinearLayout>
+   <!-- <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shortest path"
+        android:id="@+id/sp"
+        android:layout_above="@+id/submit_start"/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="recycleActivity"
+        android:id="@+id/submit_start"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Recycle</string>
+    <string-array name="title">
+        <item>Tirumala</item>
+        <item>Srinivasa Mangapuram</item>
+        <item>Appalayagunta</item>
+        <item>Tiruchanur</item>
+        <item>Kapila Theertham</item>
+        <item>Govinda Raja Swamy Temple</item>
+        <item>Kanipakam</item>
+        <item>Golden temple,vellore</item>
+        <item>Isckon,tirupati</item>
+        <item>Sri Kalahasthi</item>
+        <item>Gudi Mallavaram, Near airport </item>
+        <item>Nagalapuram Temple</item>
+        <item>Kalyana Venkateswara Swamy, Narayanavanam</item>
+        <item>Agastheeswara Temple</item>
+        <item>Sri Kodanda Rama Swamy Temple</item>
+        <item>Ardhagiri Anjaneya Swamy Temple</item>
+        <item>Sila Thoranam</item>
+        <item>Srivari Paadalu, Tirumala</item>
+        <item>Akasa Ganga </item>
+    </string-array>
+    <string-array name="god">
+        <item>Lord Balaji</item>
+        <item>Ganesh</item>
+        <item>Railway stattion</item>
+        <item>Lord Balaji</item>
+        <item>Ganesh</item>
+        <item>Railway stattion</item>
+        <item>Lord Balaji</item>
+        <item>Ganesh</item>
+        <item>Railway stattion</item>
+        <item>Lord Balaji</item>
+        <item>Ganesh</item>
+        <item>Railway stattion</item>
+        <item>Lord Balaji</item>
+        <item>Ganesh</item>
+        <item>Railway stattion</item>
+        <item>Lord Balaji</item>
+        <item>Ganesh</item>
+        <item>Railway stattion</item>
+        <item>Lord Balaji</item>
+    </string-array>
+    <string name="Tirumala">Sri Padmavati Ammavari Temple is one of the most important temples in Tirupati. this temple in Tiruchanoor is also known with the name of Alamelu mangapuram Temple or Alamelumangapuram, which refers the legend associated with Goddess Padmavathi as she is believed to have come on a Golden colour Lotus flower, hence the name referring - Alar-Lotus, Mel- Top, Manga-Goddess and Puram- village/town.
+
+According to the legend associated with Sri Padmavati Ammavari Temple, Maharishi Bhrigu came to meet Lord Vishnu at Vaikuntha. However, when he entered Lord was asleep, which angered him as he took it as an insult; owing to which he kicked the Lord on his chest, which awakened the Lord. Lord Vishnu, instead of getting angry, paid his sincere homage to the sage. Goddess Lakshmi, who was witnessing all this, couldn’t fathom the insult Lord Vishnu in the hands of Maharishi. Owing to this, she went to Patalokam, in search of atonement on the banks of Swarnamukhi River. Later after 12 years in penance, on the 13th year, she emerged as Sri Padmavati on a Golden Lotus on the auspicious day of Panchami in the month of Karthika, aligned with the arrival Uttarashadha Nakshatra. By this time, Lord Vishnu, in the search of Goddess Lakshmi, had come down to earth. As Lord Venkateswara he later married Goddess Padmavathi.</string>
+
+</resources>
